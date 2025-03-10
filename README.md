@@ -1,9 +1,22 @@
-# health-analysis
-## Dataset Information
-- **Dataset Name**: Healthcare Dataset
-- **Dataset Source**: Kaggle
-- **Dataset URL**: [Healthcare Dataset](https://www.kaggle.com/datasets/prasad22/healthcare-dataset)
-- **Dataset Description**: This dataset contains information about patient demographics, the services provided to each patient, and hospital information. This information is synthetic.
-- **Author**: Prasad Patil
-- **Citations**: The author has not provided any citations.
-- **Licensing and Usage**: According to the licensing section, this dataset is classified as CC0: Public Domain. The author has waived all of their rights to the work worldwide under copyright law. There are no restrictions on how I can use or share the data.
+# Data Analytics Portfolio
+Hello! Welcome to my data analytics portfolio!
+This repository contains three projects displaying my skills in Python, SQL, and data visualization. Each project is in its own folder with the dataset, jupyter notebook, and a README.
+## Projects Overview
+Project 1: Title, link
+ ** Objective: **
+- ** Key Tools: **
+- ** Key Insights: **
+Project 2: Title, link
+ ** Objective: **
+- ** Key Tools: **
+- ** Key Insights: **
+Project 3: Title, link
+ ** Objective: **
+- ** Key Tools: **
+- ** Key Insights: **
+## Technology and Tools Used
+## Contacts and Links
+Linkedin
+Email
+Github
+Portfolio
