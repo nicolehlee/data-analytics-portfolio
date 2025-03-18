@@ -10,4 +10,4 @@ For this project, I will be analyzing the patient's medical information to find 
 - **Citations**: The author mentions that this dataset is originally from the National Institute of Diabetes and Digestive and Kidney Diseases and UCI Machine Learning.
 - **Licensing and Usage**: According to the licensing section, this dataset is classified as CC0: Public Domain. The author has waived all of their rights to the work worldwide under copyright law. There are no restrictions on how I can use or share the data.
 ## Main Question
-What are the key characteristics of diabetic patients?
+What key characteristics distinguish diabetic from non-diabetic patients?
