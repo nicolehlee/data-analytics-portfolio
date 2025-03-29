@@ -37,3 +37,9 @@ I examined the potential relationships within the data through:
 - **Glucose**: Higher glucose levels are associated with a patient having diabetes.
 - **BMI**: A higher BMI is associated with a patient having diabetes.
 - **Age**: Age is also a key indicator of a patient potentially having diabetes.
+## Visualizations
+I created a dashboard on Tableau Public with visualizations of the key findings.
+[Tableau Dashboard](https://public.tableau.com/views/Project2DiabetesDatasetAnalysis/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+## Conclusion
+- **Key Takeaways**: Higher glucose levels, BMI, and age are the strongest indicators of diabetes diagnosis.
+- **Limitations**: The 'SkinThicknes' (227) and 'Insulin' (374) columns had many 0 values.
