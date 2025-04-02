@@ -56,30 +56,22 @@ The 5 csv files have the following columns. I will only be using the bolded colu
 - shipping_limit_date: The date before which the ordered product must be shipped
 - **price**: Actual price of the products ordered
 - freight_value: Price rate at which a product is delivered from one point to another
-
-
-
-
-
-
 ## Data Cleaning
 The dataset was cleaned by performing the following:
-- **Handling 0 values**: Replaced the 0 values with the median or used K-Nearest Neighbors.
-- **Checked for missing values**: None were found.
-- **Checked for duplicate rows**: None were found.
-- **Examined data types**: The data types did not need to be adjusted.
-- **Examined numerical data**: Reviewed distributions and outliers. Many outliers were kept. Without additional domain knowledge, there is not much justification to remove what are suspected to be outliers.
-## Exploratory Data Analysis
-I examined the potential relationships within the data through:
-- **Correlation matrix and heatmap**: I found that 'Glucose', 'BMI', and 'Age' had the highest correlation to 'Outcome'.
-- **Visualizations**: Through histograms, boxplots, and scatterplots I examined the relationships between different columns and the diabetes outcome.
+- **Handling 0 values**: 1 row with a 0 value was removed in 'payment_installments'. The 6 rows with 0 values in 'payment_value' were kept since it is possible to have a 'payment_value' of 0 in the real world.
+- **Checked for missing values**: 1,698 values were missing in the 'product category' column. They were replaced with 'Unknown'.
+- **Checked for duplicate rows**: 11,213 duplicate rows were removed.
+- **Examined data types**: The 'order_purchase_timestamp' column was changed from type 'object' to 'datetime'.
+- **Standardized decimal points and capitalization**: The 'payment_value' column and 'price' column were rounded to 2 decimal points as a precautionary measure. The capitalization in the 'product category' column was fixed.
+- **Examined numerical data**: Reviewed distributions and outliers. There were a few extemely high values, but they were kept since high prices occur in the real world.
+## Examining Distributions
+I examined the distributions for the columns through bar plots and histograms.
+## SQL Queries
+I wrote SQL queries to explore the data and answer our main question.
 ## Findings
-- **Glucose**: Higher glucose levels are associated with a patient having diabetes.
-- **BMI**: A higher BMI is associated with a patient having diabetes.
-- **Age**: Age is also a key indicator of a patient potentially having diabetes.
+The top 3 states in Brazil with the most online orders from Target are 'SP', 'RJ', and 'MG'.
 ## Visualizations
 I created a dashboard on Tableau Public with visualizations of the key findings.
-[Tableau Dashboard](https://public.tableau.com/views/Project2DiabetesDatasetAnalysis/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+[Tableau Dashboard](https://public.tableau.com/views/Project1TargetSalesDatasetAnalysis/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 ## Conclusion
-- **Key Takeaways**: Higher glucose levels, BMI, and age are the strongest indicators of diabetes diagnosis.
-- **Limitations**: The 'SkinThicknes' (227) and 'Insulin' (374) columns had many 0 values.
+- **Key Takeaways**: 'SP', 'RJ', and 'MG' are the top 3 states in Brazil that have placed the most online orders from Target. Most customers used credit card and UPI as their form of payment. The top 3 product categories with the most orders are "Bed Table Bath", "Health Beauty", and "Sport Leisure".
