@@ -11,6 +11,7 @@ I created a dashboard on Tableau Public with visualizations of the key findings.
 - The average price of products in the top 3 states are 109.9, 124.8, and 120.2 respectively.
 ## Recommended Actions
 - Increase marketing efforts within the top 3 states, since they generate the highest order volume.
+- Create new deals and promotions that encourage the use of credit cards and the purchase of vouchers.
 - Increase stock levels for the products in Bed Table Bath, Health Beauty, and Sport Leisure to ensure that they are available and not out of stock for customers.
 - Apply the same marketing and operations strategy from the top 3 states to lower performing states, as they have proven to work.
 - Keep the prices of items within the 109.9 to 124.8 range or lower to entice customers to purchase products.
