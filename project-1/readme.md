@@ -1,6 +1,19 @@
 # Project 1: e-Commerce (Target) Sales Dataset Analysis
 ## Project Overview
 For this project, I will find the top three states in Brazil with the most orders. I will analyze the purchasing behavior of these states.
+## Visualizations
+I created a dashboard on Tableau Public with visualizations of the key findings.
+[Tableau Dashboard](https://public.tableau.com/views/New-Project1TargetSalesDatasetAnalysis/Dashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+## Business Summary
+- The top 3 states in Brazil with the most online orders from Target are 'SP', 'RJ', and 'MG'.
+- The top 3 payment methods within those states are credit card, UPI, and voucher.
+- The top 3 product categories within those states are Bed Table Bath, Health Beauty,and Sport Leisure.
+- The average price of products in the top 3 states are 109.9, 124.8, and 120.2 respectively.
+## Recommended Actions
+- Increase marketing efforts within the top 3 states, since they generate the highest order volume.
+- Increase stock levels for the products in Bed Table Bath, Health Beauty, and Sport Leisure to ensure that they are available and not out of stock for customers.
+- Apply the same marketing and operations strategy from the top 3 states to lower performing states, as they have proven to work.
+- Keep the prices of items within the 109.9 to 124.8 range or lower to entice customers to purchase products.
 ## Dataset Information
 - **Dataset Name**: e-Commerce (Target) Sales Dataset
 - **Dataset Source**: Kaggle
@@ -68,10 +81,5 @@ The dataset was cleaned by performing the following:
 I examined the distributions for the columns through bar plots and histograms.
 ## SQL Queries
 I wrote SQL queries to explore the data and answer our main question.
-## Findings
-The top 3 states in Brazil with the most online orders from Target are 'SP', 'RJ', and 'MG'.
-## Visualizations
-I created a dashboard on Tableau Public with visualizations of the key findings.
-[Tableau Dashboard](https://public.tableau.com/views/Project1TargetSalesDatasetAnalysis/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 ## Conclusion
 - **Key Takeaways**: 'SP', 'RJ', and 'MG' are the top 3 states in Brazil that have placed the most online orders from Target. Most customers used credit card and UPI as their form of payment. The top 3 product categories with the most orders are "Bed Table Bath", "Health Beauty", and "Sport Leisure".
