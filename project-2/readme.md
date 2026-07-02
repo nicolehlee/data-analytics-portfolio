@@ -3,7 +3,7 @@
 For this project, I will be analyzing the patient's medical information to find the key characteristics associated with diabetes. The goal is to understand which characteristics are more prevalent in patients with diabetes.
 ## Visualizations
 I created a dashboard on Tableau Public with visualizations of the key findings.
-[Tableau Dashboard](https://public.tableau.com/views/Project2DiabetesDatasetAnalysis/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+[Tableau Dashboard](https://public.tableau.com/views/Project2DiabetesDatasetAnalysis/Dashboard2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 ## Findings
 - **Glucose**: Higher glucose levels are associated with a patient having diabetes.
 - **BMI**: A higher BMI is associated with a patient having diabetes.
