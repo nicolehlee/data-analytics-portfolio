@@ -1,6 +1,18 @@
 # Project 2: Diabetes Dataset Analysis
 ## Project Overview
 For this project, I will be analyzing the patient's medical information to find the key characteristics associated with diabetes. The goal is to understand which characteristics are more prevalent in patients with diabetes.
+## Visualizations
+I created a dashboard on Tableau Public with visualizations of the key findings.
+[Tableau Dashboard](https://public.tableau.com/views/Project2DiabetesDatasetAnalysis/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+## Findings
+- **Glucose**: Higher glucose levels are associated with a patient having diabetes.
+- **BMI**: A higher BMI is associated with a patient having diabetes.
+- **Age**: Age is also a key indicator of a patient potentially having diabetes.
+## Recommended Actions
+- Prioritize regular glucose testing for patients with higher levels.
+- Encourage healthy lifestyle education to help patients maintain a healthy BMI.
+- Increase diabetes screening efforts for older patients, who may be at higher risk.
+- Consider glucose, BMI, and age data together when identifying patients who may benefit from testing, education, and preventative care.
 ## Dataset Information
 - **Dataset Name**: Diabetes Dataset
 - **Dataset Source**: Kaggle
@@ -33,13 +45,6 @@ The dataset was cleaned by performing the following:
 I examined the potential relationships within the data through:
 - **Correlation matrix and heatmap**: I found that 'Glucose', 'BMI', and 'Age' had the highest correlation to 'Outcome'.
 - **Visualizations**: Through histograms, boxplots, and scatterplots I examined the relationships between different columns and the diabetes outcome.
-## Findings
-- **Glucose**: Higher glucose levels are associated with a patient having diabetes.
-- **BMI**: A higher BMI is associated with a patient having diabetes.
-- **Age**: Age is also a key indicator of a patient potentially having diabetes.
-## Visualizations
-I created a dashboard on Tableau Public with visualizations of the key findings.
-[Tableau Dashboard](https://public.tableau.com/views/Project2DiabetesDatasetAnalysis/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 ## Conclusion
 - **Key Takeaways**: Higher glucose levels, BMI, and age are the strongest indicators of diabetes diagnosis.
 - **Limitations**: The 'SkinThicknes' (227) and 'Insulin' (374) columns had many 0 values.
